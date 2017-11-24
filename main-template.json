@@ -96,7 +96,7 @@
         "jobRole": "Administrator",
         "storageAccount": {
             "prefix": "[concat(uniquestring(resourceGroup().id),'storage')]",
-            "type": "Premium_LRS"
+            "type": "Standard_LRS"
         }
     },
     "resources": [
